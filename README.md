@@ -1,4 +1,4 @@
-# Result Mhlongo
+⁷# Result Mhlongo
 
 ## Contact Information
 - Address: 143 Sir Lowry Street, Woodstock, Cape Town
@@ -50,6 +50,12 @@ Cape Peninsula University of Technology
 Phone: 081 892 0727  
 Email: tungelan@cput.ac.za  
 
+
+## My Introduction Video
+
+Click below to watch:
+
+👉 [Watch my video](https://drive.google.com/file/d/1MzkYZOCqXtSHGdAhH9wrCgxwZKDco6RF/view?usp=drivesdk)
 
 
 # Reflection
