@@ -49,3 +49,39 @@ Email: HendricksW@cput.ac.za
 Cape Peninsula University of Technology  
 Phone: 081 892 0727  
 Email: tungelan@cput.ac.za  
+
+
+
+# Reflection
+
+## Introduction
+
+In this project I created a digital portfolio that included my CV and a video introduction. At first I found it difficult because I was not familiar with GitHub but I improved with practice.
+
+## Purpose of a Digital Portfolio
+
+I learned that a digital portfolio is used to present myself professionally and show my skills and knowledge to potential employers.
+
+## CV Development
+
+Creating my CV helped me reflect on my skills and academic journey. It also taught me how to present my information in a clear and professional way.
+
+## Video Presentation
+
+Recording the video was challenging because I felt nervous but it helped me improve my confidence and communication skills.
+
+## Challenges Faced
+
+I struggled with understanding GitHub managing time and completing all parts of the project but I stayed committed.
+
+## Personal Growth
+
+This project helped me become more independent and confident in presenting myself.
+
+## Areas for Improvement
+
+I would improve the design of my portfolio make my video more professional and add more projects.
+
+## Conclusion
+
+Overall this project helped me grow and prepared me for future opportunities in IT.
