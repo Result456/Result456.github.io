@@ -58,36 +58,61 @@ Click below to watch:
 👉 [Watch my video](https://drive.google.com/file/d/1MzkYZOCqXtSHGdAhH9wrCgxwZKDco6RF/view?usp=drivesdk)
 
 
+
 # Reflection
 
 ## Introduction
+In this project I created a digital portfolio using GitHub. The portfolio included my CV written in Markdown a mock interview video and publishing the project using GitHub Pages. At first I found the process difficult because I was not familiar with GitHub and Markdown. However as I continued practicing I improved my skills and gained confidence.
 
-In this project I created a digital portfolio that included my CV and a video introduction. At first I found it difficult because I was not familiar with GitHub but I improved with practice.
+---
 
-## Purpose of a Digital Portfolio
+## Reflection on Coding in Markdown (STAR Method)
 
-I learned that a digital portfolio is used to present myself professionally and show my skills and knowledge to potential employers.
+### Situation
+At the beginning I had little knowledge of Markdown language and how to structure a CV using it.
 
-## CV Development
+### Task
+My task was to create a professional CV using Markdown and make sure it is clear, well-structured and readable.
 
-Creating my CV helped me reflect on my skills and academic journey. It also taught me how to present my information in a clear and professional way.
+### Action
+I learned basic Markdown syntax such as headings, lists, and links. I practiced formatting my CV step by step and corrected my mistakes. I also made sure my content was neat and organized.
 
-## Video Presentation
+### Result
+I was able to successfully create a CV using Markdown. My work became more structured and I now understand how to use Markdown for future projects.
 
-Recording the video was challenging because I felt nervous but it helped me improve my confidence and communication skills.
+---
 
-## Challenges Faced
+## Reflection on Mock Interview Video (STAR Method)
 
-I struggled with understanding GitHub managing time and completing all parts of the project but I stayed committed.
+### Situation
+I was required to record and embed a mock interview video in my portfolio.
 
-## Personal Growth
+### Task
+My task was to create a clear and professional video and include it in my GitHub portfolio using Markdown or HTML.
 
-This project helped me become more independent and confident in presenting myself.
+### Action
+I recorded my video and uploaded it to Google Drive. Then I learned how to insert the video link into my Markdown file. I also ensured that the link was accessible to everyone.
 
-## Areas for Improvement
+### Result
+I successfully embedded my video in my portfolio. This improved my confidence and helped me understand how to present myself professionally online.
 
-I would improve the design of my portfolio make my video more professional and add more projects.
+---
+
+## Reflection on the Use of GitHub Pages (STAR Method)
+
+### Situation
+I had never used GitHub Pages before and did not understand how to publish a website.
+
+### Task
+My task was to publish my portfolio online using GitHub Pages so that it can be accessed publicly.
+
+### Action
+I followed the steps to create a repository, upload my files and enable GitHub Pages. I practiced until my site was visible online.
+
+### Result
+I successfully published my portfolio. Now I understand how websites can be hosted using GitHub, and I feel more confident using this platform.
+
+---
 
 ## Conclusion
-
-Overall this project helped me grow and prepared me for future opportunities in IT.
+This project helped me improve my technical skills especially in Markdown and GitHub. I also learned how to present my work professionally. Even though I faced challenges at the beginning I was able to overcome them through practice and patience.
