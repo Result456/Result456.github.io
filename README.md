@@ -1,4 +1,4 @@
-⁷# Result Mhlongo
+# Result Mhlongo
 
 ## Contact Information
 - Address: 143 Sir Lowry Street, Woodstock, Cape Town
