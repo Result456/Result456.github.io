@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Result Mhlongo | Sections A and B</title>
+
+<style>
+:root {
+  --navy: #102b5c;
+  --blue: #2855c5;
+  --ink: #192744;
+  --muted: #596780;
+  --line: #dfe6f1;
+  --pale: #f5f7fc;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--ink);
+  line-height: 1.7;
+  background: var(--pale);
+}
+
+a {
+  color: var(--blue);
+  overflow-wrap: anywhere;
+}
+
+header {
+  background: white;
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 14px max(18px, calc((100% - 1120px)/2));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-weight: 800;
+  color: var(--navy);
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.wrap {
+  max-width: 1120px;
+  margin: auto;
+  padding: 28px 18px;
+}
+
+.hero {
+  padding: 45px 30px;
+  border-radius: 18px;
+  color: white;
+  background: linear-gradient(120deg, #102b5c, #324d92);
+}
+
+.hero h1 {
+  font-size: clamp(32px, 5vw, 52px);
+  margin: 5px 0 15px;
+  line-height: 1.15;
+}
+
+.hero p { max-width: 740px; }
+.hero a { color: white; }
+
+.label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.section-heading {
+  text-align: center;
+  margin: 50px 0 25px;
+}
+
+.section-heading h2 {
+  font-size: 32px;
+  color: var(--navy);
+  margin: 5px 0;
+}
+
+.section-heading p { color: var(--muted); }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.15fr .85fr;
+  gap: 20px;
+}
+
+.card {
+  padding: 25px;
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  background: white;
+  min-width: 0;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  margin: 0 0 15px;
+  color: var(--navy);
+}
+
+h4 {
+  color: var(--navy);
+  margin: 22px 0 8px;
+}
+
+.card p, .card li {
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.card ul { padding-left: 20px; }
+.reflection { background: #edf2ff; }
+
+.button {
+  display: inline-block;
+  background: var(--navy);
+  color: white;
+  padding: 12px 18px;
+  border-radius: 9px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.evidence {
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.evidence img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  display: block;
+}
+
+.caption {
+  font-size: 12px !important;
+  color: var(--muted);
+}
+
+.missing {
+  padding: 15px;
+  background: #fff5df;
+  border: 1px solid #ead29d;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+details {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  margin: 15px 0;
+  overflow: hidden;
+}
+
+summary {
+  padding: 14px;
+  background: #edf2ff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.details-body { padding: 15px; }
+
+.note {
+  background: #fff5df;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 13px !important;
+}
+
+footer {
+  text-align: center;
+  color: var(--muted);
+  padding: 35px 18px;
+}
+
+section { scroll-margin-top: 100px; }
+
+@media(max-width: 760px) {
+  .grid { grid-template-columns: 1fr; }
+  .hero { padding: 30px 22px; }
+  .card { padding: 20px; }
+  header { position: static; }
+  html { scroll-padding-top: 15px; }
+  nav { gap: 12px; }
+  .section-heading h2 { font-size: 27px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <a class="brand" href="#home">Result Mhlongo · Portfolio</a>
+
+  <nav aria-label="Main navigation">
+    <a href="#section-a">Section A · CV</a>
+    <a href="#reflection-a">Section A · Reflection</a>
+    <a href="#section-b">Section B · Agile</a>
+    <a href="#sprints">Sprints</a>
+    <a href="#logbooks">Logbooks</a>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <section class="hero" id="home">
+    <p class="label">PORTFOLIO OF EVIDENCE · 2026</p>
+
+    <h1>My Learning.<br>My Growth.<br>My Evidence.</h1>
+
+    <p>
+      <strong>Result Mhlongo</strong><br>
+      Diploma in ICT · Communication Networks
+    </p>
+
+    <p>
+      Section A presents my CV, introduction video and reflections
+      on my original GitHub assignment. Section B presents my
+      Agile project evidence and learning reflections.
+    </p>
+
+    <a href="#section-a">Explore my portfolio →</a>
+  </section>
+
+  <!-- SECTION A: CV -->
+
+  <section id="section-a">
+    <div class="section-heading">
+      <p class="label">SECTION A</p>
+      <h2>CV and Introduction Video</h2>
+      <p>Professional development and career preparation.</p>
+    </div>
+
+    <div class="grid">
+      <article class="card">
+        <h3>Result Mhlongo</h3>
+
+        <h4>Contact Information</h4>
+        <ul>
+          <li>Address: 143 Sir Lowry Street, Woodstock, Cape Town</li>
+          <li>
+            Phone:
+            <a href="tel:+27818920727">081 892 0727</a>
+          </li>
+          <li>
+            Email:
+            <a href="mailto:221655808@mycput.ac.za">
+              221655808@mycput.ac.za
+            </a>
+          </li>
+        </ul>
+
+        <h4>Objective</h4>
+        <p>
+          To secure an ICT internship where I can apply my academic
+          knowledge in communication networks and IT support,
+          develop practical technical skills, and contribute
+          positively to the organization while gaining industry
+          experience.
+        </p>
+
+        <h4>Technical Skills</h4>
+        <ul>
+          <li>Networking (LAN/WAN, wireless, routers, switches)</li>
+          <li>HTML &amp; CSS</li>
+          <li>Cisco Packet Tracer &amp; PuTTY</li>
+          <li>Website design &amp; responsive layout</li>
+          <li>Basic network security</li>
+        </ul>
+
+        <h4>Education</h4>
+        <p>
+          <strong>Diploma in ICT</strong><br>
+          Cape Peninsula University of Technology, Cape Town<br>
+          2024 – Present
+        </p>
+
+        <p>
+          <strong>Higher Certificate in ICT</strong><br>
+          Cape Peninsula University of Technology, Cape Town<br>
+          2023
+        </p>
+
+        <p>
+          <strong>National Senior Certificate (Matric)</strong><br>
+          Sevengwana High School, Limpopo<br>
+          2020
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Projects</h3>
+
+        <h4>Office Wireless Network Design (2025)</h4>
+        <p>
+          Designed a secure office Wi-Fi network with optimized signal.
+        </p>
+
+        <h4>Personal Portfolio Website (2024)</h4>
+        <p>Developed a website to showcase ICT work.</p>
+
+        <h4>Social Media &amp; Critical Thinking (2024)</h4>
+        <p>
+          Researched and presented findings on social media impact.
+        </p>
+
+        <h4>References</h4>
+        <p>
+          <strong>Waldon Hendricks</strong><br>
+          Cape Peninsula University of Technology<br>
+          Phone: 081 892 0727<br>
+          Email:
+          <a href="mailto:HendricksW@cput.ac.za">
+            HendricksW@cput.ac.za
+          </a>
+        </p>
+
+        <p>
+          <strong>Nomawethu Tungela</strong><br>
+          Cape Peninsula University of Technology<br>
+          Phone: 081 892 0727<br>
+          Email:
+          <a href="mailto:tungelan@cput.ac.za">
+            tungelan@cput.ac.za
+          </a>
+        </p>
+
+        <h4>My Introduction Video</h4>
+        <p>
+          Watch my introduction and mock interview video on Google Drive.
+        </p>
+
+        <a
+          class="button"
+          href="https://drive.google.com/file/d/1MzkYZOCqXtSHGdAhH9wrCgxwZKDco6RF/view?usp=drivesdk"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Watch my video ↗
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <!-- SECTION A: REFLECTION -->
+
+  <section id="reflection-a">
+    <div class="section-heading">
+      <p class="label">SECTION A · REFLECTION</p>
+      <h2>My Learning Reflection</h2>
+      <p>The STAR method: Situation, Task, Action and Result.</p>
+    </div>
+
+    <article class="card">
+      <h3>Introduction</h3>
+      <p>
+        In this project I created a digital portfolio using GitHub.
+        The portfolio included my CV written in Markdown, a mock
+        interview video and publishing the project using GitHub
+        Pages. At first I found the process difficult because I
+        was not familiar with GitHub and Markdown. However, as I
+        continued practicing, I improved my skills and gained
+        confidence.
+      </p>
+      <p>
+        This section is now presented in HTML alongside Section B.
+        The reflections below describe my experience of the
+        original Markdown assignment.
+      </p>
+    </article>
+
+    <div class="grid">
+      <article class="card reflection">
+        <h3>Reflection on Coding in Markdown</h3>
+
+        <h4>Situation</h4>
+        <p>
+          At the beginning I had little knowledge of Markdown
+          language and how to structure a CV using it.
+        </p>
+
+        <h4>Task</h4>
+        <p>
+          My task was to create a professional CV using Markdown
+          and make sure it was clear, well-structured and readable.
+        </p>
+
+        <h4>Action</h4>
+        <p>
+          I learned basic Markdown syntax such as headings, lists
+          and links. I practiced formatting my CV step by step and
+          corrected my mistakes. I also made sure my content was
+          neat and organized.
+        </p>
+
+        <h4>Result</h4>
+        <p>
+          I was able to successfully create a CV using Markdown.
+          My work became more structured and I now understand how
+          to use Markdown for future projects.
+        </p>
+      </article>
+
+      <article class="card reflection">
+        <h3>Reflection on Mock Interview Video</h3>
+
+        <h4>Situation</h4>
+        <p>
+          I was required to record and include a mock interview
+          video in my portfolio.
+        </p>
+
+        <h4>Task</h4>
+        <p>
+          My task was to create a clear and professional video
+          and include it in my GitHub portfolio using Markdown
+          or HTML.
+        </p>
+
+        <h4>Action</h4>
+        <p>
+          I recorded my video and uploaded it to Google Drive.
+          Then I learned how to insert the video link into my
+          Markdown file. I also ensured that the link was
+          accessible to everyone.
+        </p>
+
+        <h4>Result</h4>
+        <p>
+          I successfully included the video link in my portfolio.
+          This improved my confidence and helped me understand
+          how to present myself professionally online.
+        </p>
+      </article>
+
+      <article class="card reflection">
+        <h3>Reflection on the Use of GitHub Pages</h3>
+
+        <h4>Situation</h4>
+        <p>
+          I had never used GitHub Pages before and did not
+          understand how to publish a website.
+        </p>
+
+        <h4>Task</h4>
+        <p>
+          My task was to publish my portfolio online using GitHub
+          Pages so that it could be accessed publicly.
+        </p>
+
+        <h4>Action</h4>
+        <p>
+          I followed the steps to create a repository, upload my
+          files and enable GitHub Pages. I practiced until my site
+          was visible online.
+        </p>
+
+        <h4>Result</h4>
+        <p>
+          I successfully published my portfolio. Now I understand
+          how websites can be hosted using GitHub, and I feel more
+          confident using this platform.
+        </p>
+      </article>
+
+      <article class="card reflection">
+        <h3>Conclusion</h3>
+        <p>
+          This project helped me improve my technical skills,
+          especially in Markdown and GitHub. I also learned how
+          to present my work professionally. Even though I faced
+          challenges at the beginning, I was able to overcome
+          them through practice and patience.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- SECTION B: AGILE -->
+
+  <section id="section-b">
+    <div class="section-heading">
+      <p class="label">SECTION B</p>
+      <h2>Agile Portfolio of Evidence</h2>
+      <p>
+        Team charter, user stories, product backlog,
+        sprints and weekly logbooks.
+      </p>
+    </div>
+
+    <article class="card">
+      <h3>CivicFix · Team Transformers</h3>
+      <p>
+        Project: CivicFix — Municipal Hazard and Infrastructure
+        Auto-Dispatcher. My documented team role is Testing.
+      </p>
+
+      <a
+        class="button"
+        href="https://trello.com/invite/b/6adcf77cc0a5ac399683c1c0/ATTI36a9a02cd3851a0ce787bfd6c2d2f6ef537B2243/civicfix-team-transformers"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Open our Trello board ↗
+      </a>
+    </article>
+
+    <div class="grid">
+      <article class="card">
+        <h3>Agile Team Charter · Evidence</h3>
+        <p>
+          My Week 1 logbook records that Team Charter v1.0 was
+          agreed, roles were assigned and a 09:30 daily stand-up
+          was established during the initial planning period.
+        </p>
+        <p class="note">
+          The original signed charter was not supplied. The Week 1
+          logbook supports this description but does not replace
+          the charter itself.
+        </p>
+        <a href="agile-week-1.docx">
+          Open Week 1 logbook (.docx)
+        </a>
+      </article>
+
+      <article class="card reflection">
+        <h3>Team Charter · Reflection</h3>
+        <p>
+          Taking on the Testing role helped me understand my
+          responsibilities for acceptance tests, the issue list,
+          model evaluation and usability testing. The daily
+          stand-up gave me a regular opportunity to communicate
+          progress and ask about backend readiness.
+        </p>
+        <p>
+          I learned that clear roles and working agreements
+          reduce uncertainty. In future teamwork, I would make
+          dependencies and backup responsibilities explicit when
+          a teammate is unavailable.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- USER STORIES -->
+
+  <section id="user-stories">
+    <div class="section-heading">
+      <h2>User Stories and Tasks</h2>
+      <p>Four evidence pictures, with sprint-planning reflection.</p>
+    </div>
+
+    <div class="grid">
+      <article class="card">
+        <h3>Evidence · Four User Stories</h3>
+
+        <div class="evidence">
+          <h4>1 · Community Needs Assessment</h4>
+          <p>
+            “As a product team, we want to interview Khayelitsha
+            residents and traders, so that we validate the real
+            security problems before building the app.”
+          </p>
+          <a href="user-story-1.png" target="_blank" rel="noopener">
+            <img
+              src="user-story-1.png"
+              alt="Original community needs assessment story and checklist"
+              loading="lazy"
+            >
+          </a>
+          <p class="caption">
+            Original SafeStreet evidence retained from my earlier portfolio.
+          </p>
+        </div>
+
+        <div class="evidence">
+          <h4>2 · Understand the Problem</h4>
+          <p>
+            “As a group, we wanted to understand the problem in
+            more detail so that we could determine its impact.”
+          </p>
+          <a href="user-story-2.png" target="_blank" rel="noopener">
+            <img
+              src="user-story-2.png"
+              alt="Understand the Problem story with Sprint 2 label"
+              loading="lazy"
+            >
+          </a>
+        </div>
+
+        <div class="evidence">
+          <h4>3 · Identify the Target Users</h4>
+          <p>
+            “As a group, we wanted to identify our target users
+            so that CivicFix could meet their needs.”
+          </p>
+          <a href="user-story-3.png" target="_blank" rel="noopener">
+            <img
+              src="user-story-3.png"
+              alt="Identify the Target Users story and completed checklist"
+              loading="lazy"
+            >
+          </a>
+        </div>
+
+        <div class="evidence">
+          <h4>4 · Define the Problem Statement</h4>
+          <p>
+            “As a group, we wanted to write a clear problem
+            statement so that our project had a defined purpose.”
+          </p>
+          <a href="user-story-4.png" target="_blank" rel="noopener">
+            <img
+              src="user-story-4.png"
+              alt="Define the Problem Statement story and completed checklist"
+              loading="lazy"
+            >
+          </a>
+        </div>
+
+        <p class="caption">Click any picture to view it at full size.</p>
+      </article>
+
+      <article class="card reflection">
+        <h3>Reflection · User Stories and Sprints</h3>
+        <p>
+          The original community-needs story focuses on understanding
+          what people need. The added CivicFix stories break planning
+          into understanding the problem, identifying users and
+          defining the problem statement. These activities give
+          sprint tasks a purpose.
+        </p>
+        <p>
+          The Sprint 2–4 labels connect the new stories to the
+          team's planned stages. The visible completed checklists
+          for identifying users and defining the problem statement
+          make progress easier to review.
+        </p>
+        <p>
+          In my Testing role, I used the requirements to draft
+          acceptance tests and discussed unclear wording with
+          Inga. I learned that clear stories help the team agree
+          what a successful test result should look like. In a
+          future sprint, I would agree acceptance criteria early
+          and link tests to their relevant story.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- PRODUCT BACKLOG -->
+
+  <section id="product-backlog">
+    <div class="section-heading">
+      <h2>Product Backlog</h2>
+      <p>A visible record of requirements and priorities.</p>
+    </div>
+
+    <div class="grid">
+      <article class="card">
+        <h3>Evidence · Original Product Backlog</h3>
+        <p>
+          The earlier SafeStreet board shows community needs
+          assessment, crime and security analysis, and
+          target-user planning.
+        </p>
+
+        <a href="product-backlog.png" target="_blank" rel="noopener">
+          <img
+            style="width:100%;height:auto"
+            src="product-backlog.png"
+            alt="Original SafeStreet Product Backlog screenshot"
+            loading="lazy"
+          >
+        </a>
+
+        <h4>Additional CivicFix Evidence</h4>
+        <p>
+          The three weekly logbooks record backlog items, work
+          in progress and completed activities. These include
+          reporting screens, backend integration, duplicate
+          checking, testing, documentation and presentation
+          preparation.
+        </p>
+      </article>
+
+      <article class="card reflection">
+        <h3>Product Backlog · Reflection</h3>
+        <p>
+          A backlog makes requirements and unfinished work
+          visible. My Week 1 logbook records reading the MoSCoW
+          priorities and identifying which requirements needed
+          acceptance tests.
+        </p>
+        <p>
+          By Week 3, I was retesting by MoSCoW priority because
+          time was limited. I learned that priorities should guide
+          which issues receive attention first, while lower-priority
+          unfinished work should remain visible rather than
+          disappear from the plan.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- SPRINTS -->
+
+  <section id="sprints">
+    <div class="section-heading">
+      <h2>Sprint Backlog · Sprint 1–4</h2>
+      <p>
+        Evidence and reflections for each sprint-labelled planning stage.
+      </p>
+    </div>
+
+    <p class="note">
+      These screenshots show cards in the Product Backlog list
+      carrying Sprint 1–4 labels. They are sprint-labelled planning
+      evidence, not a separate full sprint-board export.
+    </p>
+
+    <div class="grid">
+      <article class="card">
+        <h3>Sprint 1 · Define Project Objectives</h3>
+        <p>25 September 2026 · Recorded as complete</p>
+
+        <a href="sprint-1.png" target="_blank" rel="noopener">
+          <img
+            style="width:100%;height:auto"
+            src="sprint-1.png"
+            alt="Sprint 1 project objectives and completed checklist"
+            loading="lazy"
+          >
+        </a>
+
+        <p>
+          The checklist covers community problems, civic issues,
+          their effects on residents and reporting challenges.
+        </p>
+
+        <h4>Reflection</h4>
+        <p>
+          My Week 1 logbook records attending sprint planning on
+          25 September and taking on the Testing role. I learned
+          that agreed objectives and responsibilities help me
+          understand what needs to be tested and how my work
+          supports the team.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Sprint 2 · Understand the Problem</h3>
+        <p>28–29 September 2026 · Recorded as complete</p>
+
+        <a href="sprint-2.png" target="_blank" rel="noopener">
+          <img
+            style="width:100%;height:auto"
+            src="sprint-2.png"
+            alt="Sprint 2 problem understanding and completed checklist"
+            loading="lazy"
+          >
+        </a>
+
+        <p>
+          The checklist considers causes, affected people,
+          effects on residents and existing reporting methods.
+        </p>
+
+        <h4>Reflection</h4>
+        <p>
+          On 28 and 29 September, I read the requirements and
+          drafted reporting-flow tests. I learned to connect
+          test steps to the problem a feature is meant to solve,
+          rather than only checking whether a screen opens.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Sprint 3 · Identify the Target Users</h3>
+        <p>29 September 2026 · Recorded as complete</p>
+
+        <a href="sprint-3.png" target="_blank" rel="noopener">
+          <img
+            style="width:100%;height:auto"
+            src="sprint-3.png"
+            alt="Sprint 3 target users and completed checklist"
+            loading="lazy"
+          >
+        </a>
+
+        <p>
+          The checklist identifies residents, community
+          representatives and administrative users and
+          considers their needs.
+        </p>
+
+        <h4>Reflection</h4>
+        <p>
+          Different users need different checks. My later
+          logbooks show testing both resident reporting and
+          staff-side features. I learned that selected tasks
+          and acceptance criteria should cover each affected
+          user group.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Sprint 4 · Define the Problem Statement</h3>
+        <p>30 September 2026 · Recorded as complete</p>
+
+        <a href="sprint-4.png" target="_blank" rel="noopener">
+          <img
+            style="width:100%;height:auto"
+            src="sprint-4.png"
+            alt="Sprint 4 problem statement and completed checklist"
+            loading="lazy"
+          >
+        </a>
+
+        <p>
+          The checklist reviews the problem, current challenges,
+          affected people and why a solution is needed.
+        </p>
+
+        <h4>Reflection</h4>
+        <p>
+          On 30 September, I recorded telling Inga which
+          requirements were not yet testable so they could
+          be reworded. I learned that a clear problem statement
+          helps the team agree boundaries and expected results.
+        </p>
+      </article>
+    </div>
+
+    <article class="card reflection">
+      <h3>Overall Sprint Reflection</h3>
+      <p>
+        The labels, dates and completed checklists make planning
+        progress visible, but they do not prove that the whole
+        application or all testing was complete. My October
+        logbooks still record backend dependencies and open issues.
+      </p>
+      <p>
+        In future sprints, I would keep the goal, task owner,
+        acceptance criteria and blockers visible together. I
+        would reserve time for retesting and review unfinished
+        work during the retrospective instead of treating a
+        completed planning card as proof of a finished product.
+      </p>
+    </article>
+  </section>
+
+  <!-- AGILE LOGBOOKS -->
+
+  <section id="logbooks">
+    <div class="section-heading">
+      <h2>Agile Logbooks · Three Weeks</h2>
+      <p>
+        Evidence summaries and links to the complete original
+        Word documents.
+      </p>
+    </div>
+
+    <div class="grid">
+      <article class="card">
+        <h3>Evidence · Result Mhlongo · Testing</h3>
+
+        <details open>
+          <summary>Week 1 · 25 September–2 October 2026</summary>
+          <div class="details-body">
+            <p>
+              <strong>Planning:</strong> Attended sprint planning
+              on 25 September, helped agree the Team Charter
+              and took on the Testing role.
+            </p>
+            <p>
+              <strong>Progress:</strong> Read requirements and
+              MoSCoW priorities, drafted and reviewed UAT-01
+              to UAT-13, and created an issue list recording
+              reproduction steps, severity and owner.
+            </p>
+            <p>
+              <strong>Blockers:</strong> Backend not ready,
+              few labelled Cape Town photos and connectivity delays.
+            </p>
+            <p>
+              <strong>Next actions:</strong> Prepare test photos
+              with Olona and run tests when the screens
+              become available.
+            </p>
+            <a href="agile-week-1.docx">
+              Open complete Week 1 logbook (.docx)
+            </a>
+          </div>
+        </details>
+
+        <details>
+          <summary>Week 2 · 5–9 October 2026</summary>
+          <div class="details-body">
+            <p>
+              <strong>Preparation:</strong> Finalised acceptance
+              tests, prepared labelled hazard photos with Olona
+              and checked that photos did not show faces or
+              number plates.
+            </p>
+            <p>
+              <strong>Progress:</strong> Wrote a usability
+              checklist, ran UAT-01 to UAT-03 with example data
+              on 8 October, logged issues for Mpho and retested
+              fixes on 9 October.
+            </p>
+            <p>
+              <strong>Blockers:</strong> Backend and API
+              readiness, limited photo variety and
+              dropped connectivity.
+            </p>
+            <p>
+              <strong>Next actions:</strong> Test the staff
+              live queue and crew assignment when available
+              and prepare model evaluation.
+            </p>
+            <a href="agile-week-2.docx">
+              Open complete Week 2 logbook (.docx)
+            </a>
+          </div>
+        </details>
+
+        <details>
+          <summary>Week 3 · 12–16 October 2026</summary>
+          <div class="details-body">
+            <p>
+              <strong>Progress:</strong> Tested ticket creation
+              and tracking, duplicate checks inside and outside
+              250 metres, staff-side features, privacy and
+              demo notices.
+            </p>
+            <p>
+              <strong>Evaluation:</strong> Compared model
+              predictions with labelled photos, checked
+              low-confidence human review and ran a usability
+              checklist with a teammate.
+            </p>
+            <p>
+              <strong>Blockers:</strong> Partly connected
+              features, limited evaluation photos, open issues
+              dependent on developers and time pressure
+              before 30 October.
+            </p>
+            <p>
+              <strong>Next actions:</strong> Retest outstanding
+              fixes, summarise results for documentation and
+              prepare presentation material.
+            </p>
+            <a href="agile-week-3.docx">
+              Open complete Week 3 logbook (.docx)
+            </a>
+          </div>
+        </details>
+      </article>
+
+      <article class="card reflection">
+        <h3>Reflection · Three Weeks of Agile Practice</h3>
+
+        <h4>Week 1 · Preparing to Test</h4>
+        <p>
+          I learned that testing starts with understanding
+          requirements, not only after development finishes.
+          Drafting and reviewing acceptance tests helped identify
+          unclear wording. Preparing tests and agreeing example
+          data allowed useful progress while the backend was
+          not ready.
+        </p>
+
+        <h4>Week 2 · Feedback and Retesting</h4>
+        <p>
+          Preparing privacy-safe photos and running the first
+          reporting-flow tests turned requirements into practical
+          checks. Reporting reproducible issues and retesting
+          fixes showed me how feedback improves the product.
+          Connectivity problems taught me to save notes locally
+          and upload them later.
+        </p>
+
+        <h4>Week 3 · Broader Checks and Honest Results</h4>
+        <p>
+          Testing resident and staff features, duplicate
+          distances, privacy and model predictions widened
+          my understanding of quality. Some features still
+          relied on example data and the photo set was limited.
+          I learned to report limitations honestly instead of
+          claiming a fully working live system or a completed
+          final test run.
+        </p>
+
+        <h4>Improvement for the Next Sprint</h4>
+        <p>
+          Daily stand-ups and dated entries made progress and
+          dependencies visible. In a future sprint, I would
+          agree testable acceptance criteria and integration
+          checkpoints earlier, prepare more varied privacy-safe
+          photos and reserve time for regression testing.
+          Open issues should remain visible and inform
+          the retrospective.
+        </p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Result Mhlongo · ICT Portfolio · Sections A and B<br>
+  <a href="#home">Back to top ↑</a>
+</footer>
+
+<script>
+document.querySelectorAll('img').forEach(img => {
+  img.addEventListener('error', () => {
+    const message = document.createElement('p');
+    message.className = 'missing';
+    message.textContent =
+      'Evidence image not uploaded yet: ' + img.getAttribute('src');
+    img.replaceWith(message);
+  });
+});
+</script>
+
+</body>
+</html>
